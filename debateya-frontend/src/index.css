@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}

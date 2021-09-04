@@ -1,0 +1,47 @@
+
+# Lista a todos las preguntas##
+GET http://localhost:4000/api/question
+
+
+#Registra un pregunta a la base de datos #
+###
+POST http://localhost:4000/api/question/method/add
+Content-Type: application/json
+
+{
+    "user" : "id del usuario",
+    "title" : "titulo de la pregunta",
+    "description" : "descripción",
+    "nchange" : 8,
+    "options" : ["si","no", "tal vez"],
+    "listvoters": []
+}
+
+#  busca un pregunta en la base de datos por su id #
+###
+GET http://localhost:4000/api/question/method/find/60caf169a42baf36eaa37297
+
+#añadir usuario a su coleccion de votantes por su id pregunta / id votante#
+###
+POST http://localhost:4000/api/question/method/update/addvoter/5ffff3ea2330b6be6d437ee8
+Content-Type: application/json
+
+{
+    "voto" : "si"
+}
+
+#actualizar pregunta#
+###
+PUT http://localhost:3000/api/preguntas/metodos/actualizar/600003a228d2140ee01ac37b
+Content-Type: application/json
+
+{
+    "titulo" : "pregunta actualizada",
+    "seccion" : "seccion actualizada",
+    "ncambios" : 10
+}
+
+#borrar pregunta#
+###
+DELETE http://localhost:3000/api/preguntas/metodos/borrar/600003a228d2140ee01ac37b
+

@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "rrquispea@uni.pe",
+      "password": "123456",
+      "name": "renzo",
+      "lastname": "quispe",
+      "dni": 12345678,
+      "age": "25",
+      "gender": "male",
+      "auth": true
+    },
+    {
+      "id": 2,
+      "email": "katheryn.peralta.h@uni.pe ",
+      "password": "123456",
+      "name": "katheryn",
+      "lastname": "peralta",
+      "dni": 87654321,
+      "age": 25,
+      "gender": "female",
+      "auth": true
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "title": "¿Estás de acuerdo con las medidas actuales frente a la pandemia?",
+      "nchanges": 5,
+      "creation": "hoy",
+      "description": "Durante el último año, el mundo fue puesto a prueba tras la irrupción de la pandemia del Covid-19, un virus desconocido que paralizó todas las actividades y provocó el cierre de fronteras para contener su propagación. Lo que no se detuvo fue la huida de miles de personas que tuvieron que dejar sus hogares en busca de seguridad. A finales de 2020, 82,4 millones de hombres, mujeres, niñas y niños fueron desplazados forzosamente, un número récord, en tiempos en los que las rutas para el tránsito fueron menores.",
+      "creator": "renzo",
+      "options": ["SI", "NO"],
+      "listvoters": [
+        {
+          "voter": 1,
+          "option": "SI"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "¿Hubo fraude electoral en la segunda vuelta?",
+      "nchanges": 4,
+      "creation": "ayer",
+      "description": "Ha transcurrido casi una semana desde que terminó la contabilización de las actas electorales al 100%, que pusieron a Castillo en primer lugar. En el breve plazo que queda hasta el 28 de julio, fecha del cambio de gobierno, el eje de la discusión debería ser el precario equipo de gobierno que el ganador está armando, las pugnas internas con los sectores más radicales de su agrupación y los detalles del plan de trabajo para los primeros 100 días, que hasta ahora no ha sido lo suficientemente sustentado.",
+      "creator": "katheryn",
+      "options": ["SI", "NO"],
+      "listvoters": []
+    },
+    {
+      "id": 3,
+      "title": "¿Gianluca Lapadula sería un mejor 9 que Guerrero?",
+      "nchanges": 3,
+      "creation": "lunes",
+      "description": "  ",
+      "creator": "renzo",
+      "options": ["SI", "NO"],
+      "listvoters": []
+    },
+    {
+      "id": 4,
+      "title": "El tipo de cambio sigue subiendo. ¿Crees que se debe al posible gobierno de Perú Libre?",
+      "nchanges": 2,
+      "creation": "martes",
+      "description": "Hoy, durante la mañana de este miércoles 23 de junio, el dólar presenta una cotización de S/ 3.98. En la sesión cambiaria del martes el dólar alcanzó un nuevo nivel máximo histórico tras subir un 0.67% en el mercado peruano. Ante este incremento récord, el Banco Central de Reserva (BCR) estima que el billete verde acumula un crecimiento de 9.98% en lo que va del 2021.",
+      "creator": "renzo",
+      "options": ["SI", "NO"],
+      "listvoters": []
+    },
+    {
+      "user": "¿Crees que el Perú está preparado para un terromoto?",
+      "creation": "miercoles",
+      "title": "Un sismo de magnitud 6,0 sacudió la noche de este martes la ciudad de Lima y la costa central de Perú. El Instituto Geofísico del Perú informó que el temblor ocurrió a las 21:54 hora local (02:54 GMT) y su epicentro se ubicó en aguas del Pacífico, a 33 kilómetros de la ciudad costera de Mala, al sur de la capital peruana.",
+      "nchange": "5",
+      "id": 1624439266743,
+      "options": ["SI", "NO"],
+      "listvoters": []
+    },
+    {
+      "user": "",
+      "title": "pregunta prueba",
+      "description": "pregunta prueba",
+      "nchange": "5",
+      "listvoters": [],
+      "creation": "2021-07-08T21:34:12.121Z",
+      "expires": "",
+      "id": 1624439266744
+    }
+  ],
+  "chat-users": [{ "name": "renzo" }, { "name": "diego" }]
+}

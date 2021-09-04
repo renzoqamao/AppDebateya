@@ -1,0 +1,55 @@
+body {
+  /* background-image: linear-gradient(-90deg, #1f308d 0%, #6b9ff3 100%); */
+}
+
+html,
+body,
+div#root {
+  height: 100%;
+  width: 100%;
+}
+
+.Content {
+  height: 100%;
+  width: 100%;
+  background-image: url("./background/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  flex-wrap: nowrap;
+  padding: 10px 10px 10px 10px;
+}
+nav {
+  height: 10%;
+  width: 100%;
+}
+
+/* logo */
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+li {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}

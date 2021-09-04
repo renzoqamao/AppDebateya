@@ -1,0 +1,41 @@
+
+# Lista a todos los usuarios#
+GET http://localhost:4000/api/user
+
+#Registra un usuario a la base de datos #
+###
+
+POST http://localhost:4000/api/user/method/add
+Content-Type: application/json
+
+{
+      "email": "diego@uni.pe ",
+      "password": "123456",
+      "name": "diego",
+      "lastname": "amao",
+      "dni": 87654321,
+      "age": 25,
+      "gender": "female",
+      "auth": true
+}
+
+#  busca un usuario en la base de datos por su id #
+###
+GET http://localhost:4000/api/user/method/find/60d4637847a583188d980099
+
+# Actualizar un usuario por su id#
+###
+
+PUT http://localhost:4000/api/user/method/update/60d4637847a583188d980099
+Content-Type: application/json
+
+{
+    "name" : "renato"
+}
+
+#Borrar un usuario por su id#
+####
+
+DELETE  http://localhost:3000/api/usuarios/metodos/borrar/60d4637847a583188d980099
+
+#### Signin

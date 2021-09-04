@@ -1,0 +1,2 @@
+# Lista a todos los usuarios disponibles##
+GET http://localhost:4000/api/chat

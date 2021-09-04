@@ -1,0 +1,10 @@
+.questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30vh 30vh;
+  height: 60vh;
+}
+
+.creator {
+  align-self: center;
+}
